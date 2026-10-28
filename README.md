@@ -9,6 +9,7 @@
 | --- | --- | --- |
 | 🔤 نماذج اللغة والاستدلال | 28 | [docs/models.md](docs/models.md) |
 | ⌨️ البرمجة والوكلاء البرمجيون | 22 | [docs/coding.md](docs/coding.md) |
+| 🧬 استنساخ المواقع والتطبيقات | 22 | [docs/cloning.md](docs/cloning.md) |
 | 🤖 أطر الوكلاء والأتمتة | 22 | [docs/agents.md](docs/agents.md) |
 | 🔎 RAG وقواعد البيانات المتجهية | 17 | [docs/rag.md](docs/rag.md) |
 | 🎨 توليد الصور ومعالجتها | 18 | [docs/image.md](docs/image.md) |
@@ -19,7 +20,7 @@
 | 🧠 الإنتاجية والمعرفة | 15 | [docs/productivity.md](docs/productivity.md) |
 | 🛡️ الأمان والحماية | 10 | [docs/safety.md](docs/safety.md) |
 | 📚 التعلّم والمراجع | 13 | [docs/learning.md](docs/learning.md) |
-| **الإجمالي** | **212** | — |
+| **الإجمالي** | **234** | — |
 
 _آخر تحديث: 2026-10-28_
 <!-- STATS:END -->
@@ -84,7 +85,7 @@ git add -A && git commit -m "إضافة أداة" && git push
 
 | الحقل | القيم المسموحة |
 | --- | --- |
-| `category` | `models`, `coding`, `agents`, `rag`, `image`, `video`, `audio`, `mlops`, `data`, `productivity`, `safety`, `learning` |
+| `category` | `models`, `coding`, `cloning`, `agents`, `rag`, `image`, `video`, `audio`, `mlops`, `data`, `productivity`, `safety`, `learning` |
 | `type` | `open` (مفتوح المصدر), `open-core` (مفتوح جزئيًا), `commercial` (تجاري), `freemium` (مجاني محدود) |
 | `run` | `local` (محلي), `cloud` (سحابي), `hybrid` (كلاهما) |
 
